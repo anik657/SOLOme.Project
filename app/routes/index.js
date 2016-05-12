@@ -6,7 +6,7 @@ var https = require('https');
 var bodyParser = require('body-parser');
 var Client = require('node-rest-client').Client;
 var client = new Client();
-var port = 80;
+var port = process.env.PORT || 80;
 // var MatchMaker = require('../anxiliary/MatchMaking/MatchMaker.js');
 
 
