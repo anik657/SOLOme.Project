@@ -9,11 +9,13 @@ var client = new Client();
 var port = process.env.PORT || 8080;
 // var MatchMaker = require('../anxiliary/MatchMaking/MatchMaker.js');
 
+
 var mongoose = require('mongoose');
+var dbURI = 'mongodb://Anik657:solome@ec2-54-152-247-43.compute-1.amazonaws.com:27017/solomeDB';
 var Mmr = mongoose.model('Mmr');
 var Summoners = mongoose.model('Summoner');
 var Games = mongoose.model('Game');
-var dbURI = 'mongodb://Anik657:solome@ec2-54-152-247-43.compute-1.amazonaws.com:27017/solomeDB';
+
 
 // app.use('/match', MatchMaker);
 

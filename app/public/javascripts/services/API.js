@@ -2,7 +2,7 @@ app.factory('SLapi', ['$http', '$window', function($http, $window) {
 
 
     var urlAuthed = "*********";
-    var url = "http://localhost:3000/";
+    var url = "http://ec2-54-152-247-43.compute-1.amazonaws.com:8080/";
 
     var SLapi = SLapi || {};
 
